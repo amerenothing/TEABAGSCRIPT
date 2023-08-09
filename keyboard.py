@@ -1,4 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMenuBar, QMenu
 import PyQt5
 import sys
 class Ui_MainWindow(object):
@@ -44,7 +45,7 @@ class Ui_MainWindow(object):
     def createMenuBar(self):
         self.menuBar=QMenuBar(self)
         self.setMenuBar(self.menuBar)
-        fileMenu = QMenu("&Файл",self)
+        fileMenu = QMenu("&Файл", self)
         self.menuBar.add
         #self.func()
 
