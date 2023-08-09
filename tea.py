@@ -1,6 +1,8 @@
+import PyQt5.QtWidgets
 from PyQt5 import QtCore, QtGui, QtWidgets
 from keyboard import Ui_MainWindow
 import sys
+
 
 app = QtWidgets.QApplication(sys.argv)
 MainWindow = QtWidgets.QMainWindow()
