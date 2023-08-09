@@ -41,7 +41,11 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
+    def createMenuBar(self):
+        self.menuBar=QMenuBar(self)
+        self.setMenuBar(self.menuBar)
+        fileMenu = QMenu("&Файл",self)
+        self.menuBar.add
         #self.func()
 
     def retranslateUi(self, MainWindow):
